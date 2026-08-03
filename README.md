@@ -1,1 +1,1 @@
-# Projects
+Projects · The Zero-Compromise Monorepo
