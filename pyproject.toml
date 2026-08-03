@@ -1,0 +1,16 @@
+[project]
+name = "mimar-link-checker"
+version = "2.0.0"
+description = "Mimar'ın sağlam, güvenli ve hızlı link denetleyicisi"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.9.0"
+]
+
+[project.scripts]
+mimar-check = "packages.link_checker.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
