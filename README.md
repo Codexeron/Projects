@@ -18,8 +18,10 @@ Projects/
 │   └── workflows/
 │       └── ci.yml          # Otomatik test pipeline'ı
 ├── packages/
-│   └── link-checker/
-│       └── main.py         # Ana modül (CLI + Retry desteği)
+│   ├── link-checker/
+│   │   └── main.py         # Modül 1: Link Denetleyici (CLI + Retry)
+│   └── env-checker/
+│       └── main.py         # Modül 2: .env Güvenlik Dedektifi
 ├── tests/
 │   └── test_main.py        # QA test iskeleti
 ├── .gitignore
