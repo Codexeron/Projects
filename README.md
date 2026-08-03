@@ -19,7 +19,7 @@ Projects/
 │       └── ci.yml          # Otomatik test pipeline'ı
 ├── packages/
 │   └── link-checker/
-│       └── main.py         # Ana modül (asenkron link denetleyici)
+│       └── main.py         # Ana modül (CLI + Retry desteği)
 ├── tests/
 │   └── test_main.py        # QA test iskeleti
 ├── .gitignore
