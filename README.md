@@ -1,7 +1,7 @@
 # 🏛️ Projects · Zero-Compromise Monorepo
 
 [![Python Version](https://img.shields.io/badge/python-3.11-blue)](https://python.org)
-[![CI Status](https://github.com/BURAYA_KULLANICI_ADINI_YAZ/Projects/actions/workflows/ci.yml/badge.svg)](https://github.com/BURAYA_KULLANICI_ADINI_YAZ/Projects/actions)
+[![CI Status](https://github.com/BURAYA_KULLANICI_ADINI_YAZ/Projects/actions/workflows/ci.yml/badge.svg)](https://github.com/Codexeron/Projects/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Motto:** If it's not secure, fast, and clean, it doesn't belong here.
