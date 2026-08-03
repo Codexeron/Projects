@@ -1,4 +1,4 @@
-name: README Link Checker
+name: 🏛️ Mimar Link Denetimi
 on: [push, pull_request]
 
 jobs:
@@ -9,5 +9,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install aiohttp
-      - run: python packages/link-checker/main.py
+      - name: Bağımlılıkları Kur
+        run: pip install -r requirements.txt
+      - name: README Linklerini Kontrol Et
+        run: python packages/link-checker/main.py
