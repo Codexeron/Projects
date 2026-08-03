@@ -1,0 +1,13 @@
+name: README Link Checker
+on: [push, pull_request]
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install aiohttp
+      - run: python packages/link-checker/main.py
